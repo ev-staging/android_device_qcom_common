@@ -1,0 +1,7 @@
+vintf_compatibility_matrix {
+    name: "qcom_compatibility_matrix.xml",
+    stem: "compatibility_matrix.qcom.xml",
+    srcs: [
+        "vendor_framework_compatibility_matrix.xml",
+    ],
+}

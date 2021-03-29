@@ -262,7 +262,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.data.latency</name>
-        <impl level="generic"></impl>
         <version>1.0</version>
         <interface>
             <name>ILinkLatency</name>
@@ -671,7 +670,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- Memory PASR HAL -->
     <hal format="hidl" optional="true">
         <name>vendor.qti.memory.pasrmanager</name>
-        <transport>hwbinder</transport>
         <version>1.0-1</version>
         <interface>
             <name>IPasrManager</name>
@@ -877,7 +875,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- SERVICETRACKER HAL service -->
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.servicetracker</name>
-        <transport>hwbinder</transport>
         <version>1.0-2</version>
         <interface>
             <name>IServicetracker</name>
@@ -887,7 +884,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- Camera PostProcessing service -->
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.camera.postproc</name>
-        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IPostProcService</name>
@@ -897,7 +893,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- Camera AON service -->
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.camera.aon</name>
-        <transport>hwbinder</transport>
         <version>1.0-1</version>
         <interface>
             <name>IAONService</name>
@@ -942,7 +937,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- SlmAdapter HAL service -->
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.slmadapter</name>
-        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>ISlmAdapter</name>
@@ -952,7 +946,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- MwqemAdapter HAL service -->
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.mwqemadapter</name>
-        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IMwqemAdapter</name>
@@ -962,7 +955,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- DpmService HAL service -->
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.dpmservice</name>
-        <transport>hwbinder</transport>
         <version>1.0-1</version>
         <interface>
             <name>IDpmService</name>
@@ -971,7 +963,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.qccsyshal</name>
-        <transport>hwbinder</transport>
         <version>1.0-1</version>
         <interface>
             <name>IQccsyshal</name>
@@ -980,7 +971,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     </hal>
     <hal format="hidl" optional="true">
        <name>vendor.qti.hardware.limits</name>
-       <transport>hwbinder</transport>
        <version>1.0-1</version>
        <interface>
            <name>ILimits</name>
@@ -990,7 +980,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- Audio Graph Manager service -->
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.AGMIPC</name>
-        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IAGM</name>
@@ -1000,7 +989,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- Audio Platform adatation service -->
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.pal</name>
-        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IPAL</name>
@@ -1010,7 +998,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- Listen Sound Model Lib service -->
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.ListenSoundModel</name>
-        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IListenSoundModel</name>
@@ -1019,7 +1006,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     </hal>
     <hal format="hidl" optional="true">
        <name>vendor.qti.hardware.wifi.wifimyftm</name>
-       <transport>hwbinder</transport>
        <version>1.0</version>
        <interface>
            <name>IWifiMyFtm</name>
@@ -1036,7 +1022,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     </hal>
     <hal format="hidl" optional="true">
        <name>vendor.qti.hardware.wifi.wificfr</name>
-       <transport>hwbinder</transport>
        <version>1.0</version>
        <interface>
            <name>IWificfr</name>
@@ -1045,7 +1030,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.qti.qesdhal</name>
-        <transport>hwbinder</transport>
         <version>1.0-1</version>
         <interface>
             <name>IQesdhal</name>
@@ -1054,7 +1038,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.qti.hardware.sxrhal</name>
-        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>ISxrCrypto</name>
@@ -1099,7 +1082,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!-- IDvr HAL service -->
     <hal format="hidl" optional="true">
         <name>vendor.qti.dvr</name>
-        <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
             <name>IDvrDisplay</name>
