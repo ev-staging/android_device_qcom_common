@@ -5,7 +5,7 @@
 CAF_DIRS := keymaster
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
+ifeq ($(call is-board-platform-in-list, $(QCOM_BOARD_PLATFORMS)),true)
 # convert CAF_DIRS to something we can give to filter
 filter_CAF_DIRS := $(foreach dir,$(CAF_DIRS),%/$(dir)/Android.mk)
 include $(filter,$(filter_CAF_DIRS),$(call first-makefiles-under,$(LOCAL_PATH)))
