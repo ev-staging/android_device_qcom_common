@@ -25,3 +25,9 @@ prebuilt_etc {
     sub_dir: "init",
     vendor: true,
 }
+
+sh_binary {
+    name: "init.qcom.irq_affinity.sh",
+    src: "init.qcom.irq_affinity.sh",
+    vendor: true,
+}
