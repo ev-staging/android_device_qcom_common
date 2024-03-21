@@ -122,5 +122,8 @@ on property:vendor.post_boot.parsed=1
     write /sys/block/sde/queue/read_ahead_kb 128
     write /sys/block/sdf/queue/read_ahead_kb 128
 
-    # Dynamically set IRQ affinity for KGSL and DRM/MDSS
-    exec u:r:vendor_qti_init_shell:s0 -- /vendor/bin/init.qcom.irq_affinity.sh
+service qcom_irq_affinity /vendor/bin/init.qcom.irq_affinity.sh
+    class main
+    user root
+    group root system
+    oneshot
