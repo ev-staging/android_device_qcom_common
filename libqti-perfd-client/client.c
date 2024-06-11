@@ -9,7 +9,11 @@
 #include <log/log.h>
 #include <stdint.h>
 
+void perf_event() {}
+
 void perf_get_feedback() {}
+
+void perf_get_feedback_extn() {}
 
 void perf_hint() {}
 
@@ -27,3 +31,5 @@ int perf_lock_rel(int handle) {
 }
 
 void perf_lock_use_profile() {}
+
+void perf_wait_get_prop() {}
