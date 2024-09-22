@@ -42,6 +42,13 @@ QSSI_SUPPORTED_PLATFORMS := \
 
 BOARD_USES_ADRENO := true
 
+# Enable thermal HAL netlink framework on UM platforms that support it
+ifneq ($(filter $(UM_5_10_FAMILY) $(UM_5_15_FAMILY),$(TARGET_BOARD_PLATFORM)),)
+    $(call soong_config_set,qti_thermal,netlink,true)
+else
+    $(call soong_config_set,qti_thermal,netlink,false)
+endif
+
 # Add qtidisplay to soong config namespaces
 SOONG_CONFIG_NAMESPACES += qtidisplay
 
